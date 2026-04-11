@@ -1,0 +1,23 @@
+.mood-element {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+.mood-element button {
+  padding: 0.7rem 1rem;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  transition: transform 0.1s ease;
+  cursor: pointer;
+}
+.mood-element button:active {
+  transform: scale(0.95);
+}
+.user-video-feed {
+  width: 20rem;
+  aspect-ratio: 16/9;
+  border-radius: 1rem;
+  object-fit: cover;
+}
